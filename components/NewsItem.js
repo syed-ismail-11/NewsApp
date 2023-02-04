@@ -18,7 +18,7 @@ const NewsItem =(props)=> {
                 : imgUrl
             }
             className="card-img-top"
-            alt="img-not-loaded"
+            alt="img"
           />
           <div className="card-body">
             <h5 className="card-title">{title}...</h5>

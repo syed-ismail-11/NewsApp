@@ -45,7 +45,6 @@ function App () {
         <Route exact path="/technology">
           <News setProgress={setProgress}   key="technology" pageSize={pageSize} country="in" category="Technology"/>
         </Route>
-         
         </Switch>
       </Router>
       </div>
